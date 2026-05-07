@@ -3,13 +3,13 @@ const allGames = [
         name: 'Drive Mad 2',
         folder: 'drivemad2',
         image: 'assets/drivemad2.png',
-        link: 'games/drivemad2/index.html'
+        link: 'play/drivemad2/index.html'
     },
     {
         name: 'boblox',
         folder: 'boblox',
         image: 'assets/boblox.png',
-        link: 'games/boblox/index.html'
+        link: ''
     }
 ];
 
