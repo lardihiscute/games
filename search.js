@@ -58,22 +58,16 @@ function renderGameGrid(games, target, headingText) {
         title.className = 'game-card-title';
         title.textContent = game.name;
 
-        const status = document.createElement('div');
-        status.className = 'game-card-status';
-        status.textContent = 'Work in progress!';
-        status.style.display = 'none';
-
         const img = document.createElement('img');
         img.alt = game.name;
         img.onerror = () => {
             img.onerror = null;
             img.src = 'assets/wip.png';
-            status.style.display = 'block';
+            title.textContent = 'Work in progress!';
         };
         img.src = game.image || 'assets/wip.png';
         card.appendChild(img);
         card.appendChild(title);
-        card.appendChild(status);
 
         grid.appendChild(card);
     });
@@ -85,7 +79,10 @@ function renderSearchResults(query) {
     const normalized = query.trim().toLowerCase();
     const gamesList = typeof allGames !== 'undefined' ? allGames : (window.allGames || []);
     const results = gamesList.filter((game) => {
-        return game.name.toLowerCase().includes(normalized);
+        const name = game.name.toLowerCase();
+        const hasWipImage = !game.image || game.image.includes('wip');
+        const displayText = hasWipImage ? 'work in progress!' : name;
+        return displayText.includes(normalized) || name.includes(normalized);
     });
 
     hidePageContent();
