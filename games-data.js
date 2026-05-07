@@ -1,51 +1,15 @@
 const allGames = [
     {
-        name: 'Parkour Path',
-        folder: 'parkour-path',
-        image: 'assets/parkour-path.png',
-        link: 'games/parkour-path/index.html'
+        name: 'boblox',
+        folder: 'boblox',
+        image: 'assets/boblox.png',
+        link: 'games/boblox/index.html'
     },
     {
-        name: 'Parkour Path',
-        folder: 'parkour-path',
-        image: 'assets/parkour-path.png',
-        link: 'games/parkour-path/index.html'
-    },
-    {
-        name: 'Parkour Path',
-        folder: 'parkour-path',
-        image: 'assets/parkour-path.png',
-        link: 'games/parkour-path/index.html'
-    },
-    {
-        name: 'Parkour Path',
-        folder: 'parkour-path',
-        image: 'assets/parkour-path.png',
-        link: 'games/parkour-path/index.html'
-    },
-    {
-        name: 'Parkour Path',
-        folder: 'parkour-path',
-        image: 'assets/parkour-path.png',
-        link: 'games/parkour-path/index.html'
-    },
-    {
-        name: 'Skyblock Adventures',
-        folder: 'skyblock-adventures',
-        image: 'assets/skyblock-adventures.png',
-        link: 'games/skyblock-adventures/index.html'
-    },
-    {
-        name: 'Mystery Mansion',
-        folder: 'mystery-mansion',
-        image: 'assets/mystery-mansion.png',
-        link: 'games/mystery-mansion/index.html'
-    },
-    {
-        name: 'Survival City',
-        folder: 'survival-city',
-        image: 'assets/survival-city.png',
-        link: 'games/survival-city/index.html'
+        name: 'boblox',
+        folder: 'boblox',
+        image: 'assets/boblox.png',
+        link: 'games/boblox/index.html'
     }
 ];
 
