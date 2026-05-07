@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games - Carson SMP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <div class="header-left">
+                <a href="index.html" class="brand-link">Carson SMP</a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="games.html" class="nav-link">Games</a></li>
+                        <li><a href="about.html" class="nav-link">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <form id="search-form" class="header-search">
+                <input id="site-search" type="text" placeholder="Search games..." aria-label="Search games">
+            </form>
+        </div>
+    </header>
+    <main class="page-content games-main">
+        <h1>All Games</h1>
+        <div id="game-grid" class="game-grid"></div>
+    </main>
+
+    <script src="games-data.js"></script>
+    <script src="search.js"></script>
+</body>
+</html>
