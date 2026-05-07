@@ -51,7 +51,7 @@ function renderGameGrid(games, target, headingText) {
         const card = document.createElement('a');
         card.className = 'game-card game-card-link';
         card.href = game.link;
-        card.target = '_blank';
+        card.target = '_self';
         card.rel = 'noopener noreferrer';
 
         const title = document.createElement('div');
