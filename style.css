@@ -330,7 +330,7 @@ nav ul {
     text-decoration: none;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 950px) {
     .game-grid {
         grid-template-columns: repeat(3, 220px);
     }
