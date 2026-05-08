@@ -6,6 +6,60 @@ const allGames = [
         link: 'play/drivemad2/index.html'
     },
     {
+        name: 'Drive Mad 2',
+        folder: 'drivemad2',
+        image: 'assets/drivemad2.png',
+        link: 'play/drivemad2/index.html'
+    },
+    {
+        name: 'Drive Mad 2',
+        folder: 'drivemad2',
+        image: 'assets/drivemad2.png',
+        link: 'play/drivemad2/index.html'
+    },
+    {
+        name: 'Drive Mad 2',
+        folder: 'drivemad2',
+        image: 'assets/drivemad2.png',
+        link: 'play/drivemad2/index.html'
+    },
+    {
+        name: 'Drive Mad 2',
+        folder: 'drivemad2',
+        image: 'assets/drivemad2.png',
+        link: 'play/drivemad2/index.html'
+    },
+    {
+        name: 'Drive Mad 2',
+        folder: 'drivemad2',
+        image: 'assets/drivemad2.png',
+        link: 'play/drivemad2/index.html'
+    },
+    {
+        name: 'Drive Mad 2',
+        folder: 'drivemad2',
+        image: 'assets/drivemad2.png',
+        link: 'play/drivemad2/index.html'
+    },
+    {
+        name: 'Drive Mad 2',
+        folder: 'drivemad2',
+        image: 'assets/drivemad2.png',
+        link: 'play/drivemad2/index.html'
+    },
+    {
+        name: 'Drive Mad 2',
+        folder: 'drivemad2',
+        image: 'assets/drivemad2.png',
+        link: 'play/drivemad2/index.html'
+    },
+    {
+        name: 'Drive Mad 2',
+        folder: 'drivemad2',
+        image: 'assets/drivemad2.png',
+        link: 'play/drivemad2/index.html'
+    },
+    {
         name: 'boblox',
         folder: 'boblox',
         image: 'assets/boblox.png',
