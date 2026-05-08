@@ -332,7 +332,7 @@ nav ul {
 
 @media (max-width: 1080px) {
     .game-grid {
-        grid-template-columns: repeat(4, 240px);
+        grid-template-columns: repeat(3, 220px);
     }
     .game-card {
         width: 220px;
